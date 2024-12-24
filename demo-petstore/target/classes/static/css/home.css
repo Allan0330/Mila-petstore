@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fondo de la página */
+body {
+    background-color: #ffebcd; /* Color de fondo suave tipo beige */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Asegura que la página ocupe toda la altura de la pantalla */
+    padding: 20px;
+}
+
+/* Estilo del título */
+h1 {
+    color: #2e8b57; /* Color verde para darle un toque fresco */
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilo del formulario de logout */
+form {
+    text-align: center;
+}
+
+/* Estilo del botón de logout */
+button {
+    padding: 12px 30px;
+    background-color: #f44336; /* Rojo para el botón de logout */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e53935; /* Rojo más oscuro cuando pasa el mouse */
+}
+
+/* Estilo de texto adicional o instrucciones */
+p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+    text-align: center;
+}

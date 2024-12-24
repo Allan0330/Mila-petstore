@@ -1,0 +1,2 @@
+INSERT INTO app_usuario (username, password, role) VALUES ('user1', '$2a$10$9IMgCRYiEaqHR9CH3FI8Net7kOw.LEml3a1.gvZaHLxRgCh60DVca', 'ROLE_USER');
+INSERT INTO app_usuario (username, password, role) VALUES ('admin1', '$2a$10$9IMgCRYiEaqHR9CH3FI8Net7kOw.LEml3a1.gvZaHLxRgCh60DVca', 'ROLE_ADMIN');
